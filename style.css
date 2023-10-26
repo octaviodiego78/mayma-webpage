@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+*{
+    margin:0;
+    padding: o;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+.hero{
+
+    background: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: rigth;
+}
+
+nav ul li{ /* Container for the headding */
+    display: inline-block; /* displays list items side by side horizontally */
+    list-style: none; /* Removes the default bullet point for list items */
+    margin: 0 20px; /* Spacing between list elements */
+    font-size: 16 px;
+}
+
+nav ul li a{
+    text-decoration: none; /* Removes underlined from list items */
+    color: #2f5ed5;
+
+}
+
+.contact-button{
+    background: #2f5ed5;
+    color:#fff; /* text color */
+    height: 40px;
+    width: 100px;
+    border-radius: 20px; /* Adds rounded corners to the button container */
+    border: 0; /* Removes the border */
+    outline: 0; /* Removes the outline when the button is clicked */
+    cursor: pointer; /* changes the cursor to a pointer when hovering over the image, indicating it's clickable. */
+    font-size: 16px ;
+    padding: 5px 15px;
+    text-align: center; /* center the text horizontally */
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.construction-img {
+    width: 500px; /* Adjust the width as needed */
+    margin-right: 20px;
+}
+
+.text-container {
+    flex: 1;
+    text-align: center;
+    color: black;
+    
+}
+
+
