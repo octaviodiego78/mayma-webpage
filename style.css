@@ -19,72 +19,64 @@
     position: relative;
 }
 
-nav{
+
+/* Navigation container styles */
+nav {
     display: flex;
     align-items: center;
-    padding: 20px 8%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff; /* Background color for the navigation bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
 
-nav .menu-img{
+/* Menu image styles */
+.menu-img {
     width: 25px;
-    margin-right: 20px;
-    margin-left: 5px;
     cursor: pointer;
 }
 
-nav .logo{
-    width: 160px;
-    cursor: pointer;
+/* Logo image styles */
+.logo {
+    width: 120px; /* Adjust the width as needed */
+    margin-left: 20px; /* Separation between menu image and logo */
 }
 
-.nav-links{
-    flex: 1;
-    text-align: rigth;
-}
-
-nav ul li{ /* Container for the headding */
-    display: inline-block; /* displays list items side by side horizontally */
-    list-style: none; /* Removes the default bullet point for list items */
-    margin: 0 20px; /* Spacing between list elements */
-    font-size: 16 px;
-}
-
-nav ul li a{
-    text-decoration: none; /* Removes underlined from list items */
-    color: #2f5ed5;
-
-}
-
-.contact-button{
-    background: #2f5ed5;
-    color:#fff; /* text color */
-    height: 40px;
-    width: 100px;
-    border-radius: 20px; /* Adds rounded corners to the button container */
-    border: 0; /* Removes the border */
-    outline: 0; /* Removes the outline when the button is clicked */
-    cursor: pointer; /* changes the cursor to a pointer when hovering over the image, indicating it's clickable. */
-    font-size: 16px ;
-    padding: 5px 15px;
-    text-align: center; /* center the text horizontally */
-}
-
-.hero-container{
+/* Navigation links styles */
+.nav-link {
+    list-style: none;
     display: flex;
-    align-items: center;
-    padding: 20px;
 }
 
-.construction-img {
-    width: 500px; /* Adjust the width as needed */
-    margin-right: 20px;
+.nav-link li {
+    margin-right: 30px; /* Separation between text links */
 }
 
-.text-container {
-    flex: 1;
-    text-align: center;
-    color: black;
-    
+.nav-link li a {
+    text-decoration: none;
+    color: #2f5ed5; /* Blue text color */
 }
 
+/* Contact button styles */
+.contact-button {
+    background: #2f5ed5; /* Blue background for the button */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.hero-image-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+}
+
+.hero-image-container img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default spacing around the image */
+}
 
