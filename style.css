@@ -30,11 +30,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
 
-/* Menu image styles */
-.menu-img {
-    width: 25px;
-    cursor: pointer;
-}
+
 
 /* Logo image styles */
 .logo {
@@ -65,6 +61,8 @@ nav {
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-right: 25px; /* Add a margin on the right to move the button to the left */
+
 }
 
 
