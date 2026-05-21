@@ -1,0 +1,38 @@
+# Coloca tus imágenes aquí
+
+## Imágenes requeridas:
+
+### Hero Section
+- **hero-bg.jpg** - HORIZONTAL/LANDSCAPE (16:9 o más ancha)
+  - Recomendado: 1920x1080px mínimo
+  - Una foto impactante de uno de tus mejores proyectos
+  - Debe verse bien con overlay oscuro encima
+
+### About Section
+- **about-img.jpg** - VERTICAL/PORTRAIT (4:5 o similar)
+  - Recomendado: 800x1000px o 1200x1500px
+  - Foto profesional del equipo trabajando o un proyecto destacado
+
+### Projects Gallery (Antes/Después)
+Todas las fotos deben ser **VERTICAL/PORTRAIT** o **CUADRADAS** (3:4 o 1:1)
+- Recomendado: 800x1000px (portrait) o 800x800px (square)
+- Importante: Cada par (antes/después) debe tener la MISMA orientación
+
+**Proyecto 1 (2-3 fotos de diferentes ángulos):**
+- project1-photo1-before.jpg y project1-photo1-after.jpg (ejemplo: vista general)
+- project1-photo2-before.jpg y project1-photo2-after.jpg (ejemplo: detalle cocina)
+- project1-photo3-before.jpg y project1-photo3-after.jpg (ejemplo: acabados)
+- project1-photo4-before.jpg y project1-photo4-after.jpg (ejemplo: acabados)
+
+**Proyecto 2 (2-3 fotos de diferentes ángulos):**
+- project2-photo1-before.jpg y project2-photo1-after.jpg (ejemplo: entrada)
+- project2-photo2-before.jpg y project2-photo2-after.jpg (ejemplo: sala)
+- project2-photo3-before.jpg y project2-photo3-after.jpg (ejemplo: baño)
+
+**Nota:** Si solo tienes 2 fotos por proyecto, simplemente no agregues la tercera (photo3). El diseño se adapta automáticamente.
+
+## Consejos:
+- Usa alta resolución (mínimo 800px en el lado más corto)
+- Las fotos "antes" y "después" deben tomarse desde el mismo ángulo
+- Buena iluminación natural para mostrar los detalles
+- Formato JPG optimizado para web (no más de 500KB por foto)
