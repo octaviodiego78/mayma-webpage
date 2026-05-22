@@ -101,7 +101,7 @@ function ImageSlider({ beforeImage, afterImage, label, className = '' }: ImageSl
 export default function Projects() {
   const projects = [
     {
-      title: "Proyecto 1",
+      title: "Casa Guadalupe",
       description: "Ampliación y renovación completa",
       photos: [
         {
@@ -127,7 +127,7 @@ export default function Projects() {
       ]
     },
     {
-      title: "Proyecto 2",
+      title: "Casa Chapalita Inn 2",
       description: "Remodelación integral de vivienda",
       photos: [
         {
