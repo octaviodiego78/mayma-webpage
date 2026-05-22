@@ -20,7 +20,7 @@ export default function Contact() {
 
     const whatsappMessage = `Hola, me gustaría solicitar un presupuesto:%0A%0ANombre: ${data.nombre}%0ATeléfono: ${data.telefono}%0AEmail: ${data.email}%0ADescripción: ${data.descripcion}`;
     
-    window.open(`https://wa.me/34600000000?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/523319451030?text=${whatsappMessage}`, "_blank");
     
     setMessage("Redirigiendo a WhatsApp...");
     setIsSubmitting(false);
@@ -32,11 +32,8 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-lg">
           <h2 className="text-3xl sm:text-headline-lg text-primary mb-3 sm:mb-4">
-            Solicita tu presupuesto
+            Cuéntanos sobre tu proyecto
           </h2>
-          <p className="text-base sm:text-body-lg text-secondary max-w-2xl mx-auto px-4">
-            Cuéntanos sobre tu proyecto y te responderemos lo antes posible
-          </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 sm:gap-lg">
@@ -60,13 +57,13 @@ export default function Contact() {
                 <label htmlFor="telefono" className="block text-label-md text-primary mb-2">
                   Teléfono
                 </label>
-                <input
+                  <input
                   type="tel"
                   id="telefono"
                   name="telefono"
                   required
                   className="w-full bg-surface text-on-surface text-body-md rounded-sm px-4 py-3 border border-border focus:outline-none focus:ring-2 focus:ring-tertiary"
-                  placeholder="+34 600 000 000"
+                  placeholder="+52 33 1945 1030"
                 />
               </div>
               
@@ -125,8 +122,8 @@ export default function Contact() {
                   </svg>
                   <div>
                     <div className="text-label-md text-primary mb-1">Teléfono</div>
-                    <a href="tel:+34600000000" className="text-body-md text-secondary hover:text-tertiary">
-                      +34 600 000 000
+                    <a href="tel:+523319451030" className="text-body-md text-secondary hover:text-tertiary">
+                      +52 33 1945 1030
                     </a>
                   </div>
                 </div>
@@ -137,8 +134,8 @@ export default function Contact() {
                   </svg>
                   <div>
                     <div className="text-label-md text-primary mb-1">Email</div>
-                    <a href="mailto:info@maymaconstrucciones.com" className="text-body-md text-secondary hover:text-tertiary">
-                      info@maymaconstrucciones.com
+                    <a href="mailto:maymasoluciones@gmail.com" className="text-body-md text-secondary hover:text-tertiary">
+                      maymasoluciones@gmail.com
                     </a>
                   </div>
                 </div>
@@ -151,7 +148,7 @@ export default function Contact() {
                   <div>
                     <div className="text-label-md text-primary mb-1">Ubicación</div>
                     <p className="text-body-md text-secondary">
-                      Madrid, España
+                      Jalisco, México
                     </p>
                   </div>
                 </div>
@@ -159,7 +156,7 @@ export default function Contact() {
             </div>
             
             <a
-              href="https://wa.me/34600000000?text=Hola,%20me%20gustaría%20solicitar%20información%20sobre%20sus%20servicios"
+              href="https://wa.me/523319451030?text=Hola,%20me%20gustaría%20solicitar%20información%20sobre%20sus%20servicios"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-green-600 text-white text-label-lg px-6 py-4 rounded-sm hover:bg-green-700 transition-colors text-center"

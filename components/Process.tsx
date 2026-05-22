@@ -8,7 +8,7 @@ export default function Process() {
     {
       number: "02",
       title: "Diseño",
-      description: "Creamos planos detallados, seleccionamos materiales y desarrollamos un cronograma. Obtenemos todos los permisos necesarios."
+      description: "Creamos planos detallados, renders, seleccionamos materiales y desarrollamos un cronograma. Obtenemos todos los permisos necesarios."
     },
     {
       number: "03",

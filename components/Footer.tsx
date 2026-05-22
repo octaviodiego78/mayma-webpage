@@ -41,11 +41,12 @@ export default function Footer() {
           <div>
             <h4 className="text-base sm:text-label-lg mb-3 sm:mb-4">Servicios</h4>
             <ul className="space-y-2 text-body-sm text-gray-300">
-              <li>Cocinas</li>
-              <li>Baños</li>
+              <li>Remodelación integral</li>
               <li>Ampliaciones</li>
               <li>Exteriores</li>
-              <li>Remodelación integral</li>
+              <li>Cocinas</li>
+              <li>Baños</li>
+              <li>Pisos y acabados</li>
             </ul>
           </div>
           
@@ -53,17 +54,17 @@ export default function Footer() {
             <h4 className="text-base sm:text-label-lg mb-3 sm:mb-4">Contacto</h4>
             <ul className="space-y-3">
               <li>
-                <a href="tel:+34600000000" className="text-body-sm text-gray-300 hover:text-tertiary transition-colors">
-                  +34 600 000 000
+                <a href="tel:+523319451030" className="text-body-sm text-gray-300 hover:text-tertiary transition-colors">
+                  +52 33 1945 1030
                 </a>
               </li>
               <li>
-                <a href="mailto:info@maymaconstrucciones.com" className="text-body-sm text-gray-300 hover:text-tertiary transition-colors">
-                  info@maymaconstrucciones.com
+                <a href="mailto:maymasoluciones@gmail.com" className="text-body-sm text-gray-300 hover:text-tertiary transition-colors">
+                  maymasoluciones@gmail.com
                 </a>
               </li>
               <li className="text-body-sm text-gray-300">
-                Madrid, España
+                Jalisco, México
               </li>
             </ul>
           </div>
